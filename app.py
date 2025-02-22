@@ -69,8 +69,7 @@ st.markdown(
 )
 
 # ----- MongoDB Connection -----
-MONGO_URI = ("mongodb+srv://joshuailangovansamuel:HHXm1xKAsKxZtQ6I@"
-             "cluster0.pbvcd.mongodb.net/career_recommendations?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = "mongodb+srv://hasmathhachu:Mh20xwNmwzpVc2B2@careers.eqed2.mongodb.net/?retryWrites=true&w=majority&appName=careers"
 client = MongoClient(MONGO_URI)
 try:
     client.admin.command('ping')
